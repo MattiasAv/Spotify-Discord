@@ -13,6 +13,7 @@
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Spotify-Discord/css/source.css);
 
 :root {
+	--title-bar-height: 55px;
 	--accent-color: #1db954;
 	--accent-hover: #1ed760;
 	--accent-rgb: 29,185,84;
@@ -38,4 +39,20 @@
 	--input-color: #e0e0e0;
 	--input-text-color: #333;
 	--input-placeholder-color: #444;
+}
+/* CUSTOM TITLE BAR COLORS */
+
+/* Copy and paste this example and then changes the server name and hex color code */
+.container-3w7J-x[aria-label*="SERVER_NAME"]:before {
+      --title-custom: #184c88;
+}
+
+/* CUSTOM TITLE BAR COLORS -> DEFAULTS */
+
+.container-3w7J-x[aria-label*="BetterDiscord"]:before {
+      --title-custom: #3b77c4;
+}
+
+.container-3w7J-x[aria-label*="CapnKitten"]:before {
+      --title-custom: #184c88;
 }
